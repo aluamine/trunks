@@ -7,7 +7,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	trunks "github.com/shynuu/trunks/runtime"
+	trunks "github.com/aluamine/trunks/runtime"
 	"github.com/urfave/cli"
 )
 
