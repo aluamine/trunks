@@ -8,7 +8,7 @@ import (
 	"syscall"
 
 	trunks "github.com/shynuu/trunks/runtime"
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli"
 )
 
 // Initialize signals handling
