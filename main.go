@@ -8,7 +8,7 @@ import (
 	"syscall"
 
 	trunks "github.com/aluamine/trunks/runtime"
-	"github.com/urfave/cli"
+	"github.com/urfave/cli/v2"
 )
 
 // Initialize signals handling
