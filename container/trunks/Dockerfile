@@ -1,9 +1,9 @@
 FROM golang:1.14 AS builder
 LABEL maintainer="youssouf.drif"
 
-RUN go get -d github.com/shynuu/trunks
-WORKDIR /go/src/github.com/shynuu/trunks
-RUN go install github.com/shynuu/trunks
+RUN go get -d github.com/aluamine/trunks
+WORKDIR /go/src/github.com/aluamine/trunks
+RUN go install github.com/aluamine/trunks
 
 FROM debian:buster-slim
 WORKDIR /trunks
